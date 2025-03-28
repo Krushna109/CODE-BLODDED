@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+button {
+    padding: 15px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#sosButton {
+    background-color: red;
+    color: white;
+}
+
+#voiceDetectionButton {
+    background-color: blue;
+    color: white;
+}
