@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women Safety App</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚨 Women Safety App</h1>
+        
+        <button id="sosButton">Send SOS Alert</button>
+        
+        <button id="voiceDetectionButton">Start Voice Detection</button>
+
+        <div id="alerts">
+            <h2>🔔 Alerts</h2>
+            <ul id="alertList"></ul>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.js"></script>
+    <script src="../backend/server.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
